@@ -9,7 +9,7 @@ repository = "https://github.com/not-matthias/kernel-log-rs"
 license-file = "LICENSE"
 
 [dependencies]
-ntapi = { version = "0.4.0", default-features = false, features = ["kernel"] }
+ntapi = { version = "*", default-features = false, features = ["kernel"] }
 log = { version = "0.4.17", features = [] }
 
 [features]
